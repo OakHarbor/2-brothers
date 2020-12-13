@@ -1,0 +1,531 @@
+
+
+* h2 {
+    font-size: 2em;
+}
+
+.container {
+    max-width: 470px;
+    margin: auto;
+}
+
+/*-- -------------------------- -->
+<---            Hero            -->
+<--- -------------------------- -*/
+
+#dark {
+    background: rgb(0,0,0);
+    background: -o-radial-gradient(circle, rgba(0,0,0,0.6306897759103641) 0%, rgba(0,0,0,0.9192051820728291) 100%);
+    background: radial-gradient(circle, rgba(0,0,0,0.6306897759103641) 0%, rgba(0,0,0,0.9192051820728291) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#000000",endColorstr="#000000",GradientType=1);
+    opacity: .9;
+}
+
+#hero {
+    height: 300px;
+    background: url("/images/services-mobile.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#hero h1 {
+    font-size: 3em;
+    color: #fff;
+    position: relative;
+    z-index: 10;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+    margin-top: 100px;
+}
+
+#hero h1 span {
+    font-family: 'Raleway', sans-serif;
+    font-weight: bold;
+    color: var(--primary);
+}
+
+#hero a {
+    position: relative;
+    z-index: 10;
+    text-decoration: none;
+    font-size: .9em;
+    color: #fff;
+}
+
+.links {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+}
+
+.links a {
+    margin: 0;
+}
+
+.links span {
+    position: relative;
+    z-index: 10;
+    color: var(--primary);
+    margin: 0 12px;
+    font-weight: bold;
+    font-size: 1.7em;
+}
+
+#hero a:last-child {
+    font-weight: 500;
+}
+
+/*-- -------------------------- -->
+<---          Services          -->
+<--- -------------------------- -*/
+
+#detailing-services h2 {
+    text-align: center;
+}
+
+.service {
+    margin-bottom: 50px;
+}
+
+.service-content {
+    padding: 35px 25px;
+    background: #eee;
+}
+
+.service h3 {
+    font-size: 1.5em;
+}
+
+.image {
+    height: 200px;
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.service:nth-child(1) .image {
+    background: url("/images/doulos-auto-detailing-image-10.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.service:nth-child(2) .image {
+    background: url("/images/doulos-auto-detailing-image-22.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.service:nth-child(3) .image {
+    background: url("/images/doulos-auto-detailing-image-11.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.service:nth-child(4) .image {
+    background: url("/images/doulos-auto-detailing-image-13.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.service:nth-child(5) .image {
+    background: url("/images/doulos-auto-detailing-image-17.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.service:nth-child(6) .image {
+    background: url("/images/interior.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.service:nth-child(7) .image {
+    background: url("/images/doulos-auto-detailing-image-23.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.warning {
+    text-align: center;
+    margin: auto;
+}
+
+#contact-container h2 {
+    margin: auto;
+    margin-bottom: 25px;
+}
+
+.lines {
+    margin-bottom: 0;
+}
+
+.icon-graphic {
+    margin: 0 auto;
+}
+
+#contact-container h3 {
+    max-width: 300px;
+    margin: auto;
+}
+
+.service-content button:hover {
+    background: transparent;
+}
+
+/* Small Screens */
+@media screen and (min-width: 300px) and (max-width: 400px) {
+
+    #hero h1 {
+        font-size: 2em;
+    }
+
+
+}
+
+/* Step 1 */
+@media screen and (min-width: 540px) and (max-width: 767px) {
+
+    
+
+    .container {
+        max-width: 700px
+    }
+
+    #detailing-services h2 {
+        font-size: 3em;
+    }
+
+    .services {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -ms-flex-wrap: wrap;
+            flex-wrap: wrap;
+        -webkit-box-pack: justify;
+            -ms-flex-pack: justify;
+                justify-content: space-between;
+        width: 100%;
+        max-width: 700px;
+    }
+
+    .service {
+        width: 320px;
+        margin: auto;
+        margin-bottom: 50px;
+    }
+
+}
+
+/* Step 2 */
+@media screen and (min-width: 768px) and (max-width: 991px) {
+
+    .container {
+        max-width: 900px
+    }
+
+    #hero {
+        background: url("/images/services-desktop.jpg");
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+    }
+
+    #detailing-services h2 {
+        font-size: 3em;
+    }
+
+    .services {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -ms-flex-wrap: wrap;
+            flex-wrap: wrap;
+        -webkit-box-pack: justify;
+            -ms-flex-pack: justify;
+                justify-content: space-between;
+        width: 100%;
+        max-width: 700px;
+    }
+
+    .services ul {
+        height: 190px;
+    }
+
+    .service:nth-child(1) ul {
+        height: 140px;
+    }
+
+    .service:nth-child(2) ul {
+        height: 140px;
+    }
+
+    .service:nth-child(7) ul {
+        height: 120px;
+    }
+
+    .service {
+        width: 320px;
+        margin: auto;
+        margin-bottom: 50px;
+    }
+
+}
+
+/* Step 3 */
+@media screen and (min-width: 992px) and (max-width: 1200px) {
+
+    .container {
+        max-width: 1200px
+    }
+
+    #hero {
+        height: 400px;
+        background: url("/images/services-desktop.jpg");
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+    }
+
+    #hero h1 {
+        font-size: 3em;
+    }
+
+    #detailing-services h2 {
+        font-size: 3em;
+    }
+
+    .services {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -ms-flex-wrap: wrap;
+            flex-wrap: wrap;
+        -webkit-box-pack: justify;
+            -ms-flex-pack: justify;
+                justify-content: space-between;
+        width: 100%;
+        max-width: 1200px;
+        height: auto;
+    }
+
+    .service {
+        width: 340px;
+        margin: auto;
+        margin-bottom: 50px;
+    }
+
+    .service ul {
+        height: 160px;
+    }
+
+    .service-content {
+        height: 380px;
+    }
+
+    .service:nth-child(5) {
+        -webkit-box-ordinal-group: 6;
+            -ms-flex-order: 5;
+                order: 5;
+    }
+
+    .claybar {
+        height: 450px;
+    }
+
+    .claybar ul {
+        height: 200px;
+    }
+
+
+    .warning {
+        display: block;
+        width: 100%;
+        -webkit-box-ordinal-group: 10;
+            -ms-flex-order: 9;
+                order: 9;
+        margin-top: 200px;
+    }
+}
+
+/* Step 4 */
+@media screen and (min-width: 1200px) {
+
+    .container {
+        max-width: 1200px
+    }
+
+
+    #hero {
+        height: 400px;
+        background-attachment: fixed;
+        background-position: bottom;
+    }
+
+    #hero h1 {
+        font-size: 3em;
+    }
+
+    #detailing-services h2 {
+        font-size: 3em;
+    }
+
+    #detailing-services .container {
+        padding: 0;
+    }
+
+    .services {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -ms-flex-wrap: wrap;
+            flex-wrap: wrap;
+        -webkit-box-pack: justify;
+            -ms-flex-pack: justify;
+                justify-content: space-between;
+        width: 100%;
+        max-width: 1200px;
+        height: auto;
+    }
+
+    .service {
+        width: 340px;
+        margin: auto;
+        margin-bottom: 50px;
+    }
+
+    .service:nth-child(5) {
+        -webkit-box-ordinal-group: 6;
+            -ms-flex-order: 5;
+                order: 5;
+    }
+
+    .service ul {
+        height: 160px;
+    }
+
+    .service-content {
+        height: 380px;
+    }
+
+    .service:nth-child(5) {
+        -webkit-box-ordinal-group: 6;
+            -ms-flex-order: 5;
+                order: 5;
+    }
+
+    .claybar {
+        height: 450px;
+    }
+
+    .claybar ul {
+        height: 200px;
+    }
+
+    .warning {
+        display: block;
+        width: 100%;
+        -webkit-box-ordinal-group: 10;
+            -ms-flex-order: 9;
+                order: 9;
+        margin-top: 50px;
+    }
+
+}
+
+/* Step 5 */
+@media screen and (min-width: 1400px) {
+
+    .container {
+        max-width: 1300px
+    }
+
+    #hero {
+        height: 400px;
+        background: url("/images/services-desktop.jpg");
+        background-position: bottom;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+    }
+
+    #hero h1 {
+        font-size: 3em !important;
+    }
+
+    #detailing-services h2 {
+        font-size: 3em;
+    }
+
+    .services {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -ms-flex-wrap: wrap;
+            flex-wrap: wrap;
+        -webkit-box-pack: justify;
+            -ms-flex-pack: justify;
+                justify-content: space-between;
+        width: 100%;
+        max-width: 1200px;
+        height: auto;
+    }
+
+    .service {
+        width: 340px;
+        margin: auto;
+        margin-bottom: 50px;
+    }
+
+    .service:nth-child(5) {
+        -webkit-box-ordinal-group: 6;
+            -ms-flex-order: 5;
+                order: 5;
+    }
+
+    .service ul {
+        height: 160px;
+    }
+
+    .service-content {
+        height: 380px;
+    }
+
+    .service:nth-child(5) {
+        -webkit-box-ordinal-group: 6;
+            -ms-flex-order: 5;
+                order: 5;
+    }
+
+    .claybar {
+        height: 450px;
+    }
+
+    .claybar ul {
+        height: 200px;
+    }
+
+
+    .warning {
+        display: block;
+        width: 100%;
+        -webkit-box-ordinal-group: 10;
+            -ms-flex-order: 9;
+                order: 9;
+        margin-top: 100px;
+    }
+    
+}
