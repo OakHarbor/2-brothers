@@ -109,35 +109,35 @@
 }
 
 .service:nth-child(1) .image {
-    background: url("/images/doulos-auto-detailing-image-10.jpg");
+    background: url("/images/image-9.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
 }
 
 .service:nth-child(2) .image {
-    background: url("/images/doulos-auto-detailing-image-22.png");
+    background: url("/images/image-7.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
 }
 
 .service:nth-child(3) .image {
-    background: url("/images/doulos-auto-detailing-image-11.jpg");
+    background: url("/images/image-1.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
 }
 
 .service:nth-child(4) .image {
-    background: url("/images/doulos-auto-detailing-image-13.jpg");
+    background: url("/images/image-9.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
 }
 
 .service:nth-child(5) .image {
-    background: url("/images/doulos-auto-detailing-image-17.jpg");
+    background: url("/images/image-2.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -151,7 +151,7 @@
 }
 
 .service:nth-child(7) .image {
-    background: url("/images/doulos-auto-detailing-image-23.jpg");
+    background: url("/images/image-3.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;

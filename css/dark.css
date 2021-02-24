@@ -144,9 +144,9 @@
 
 .dark-toggle.dark-mode {
     background: rgb(67,183,255);
-    background: -o-linear-gradient(left, rgba(67,183,255,1) 0%, rgba(0,221,246,1) 100%);
-    background: -webkit-gradient(linear, left top, right top, from(rgba(67,183,255,1)), to(rgba(0,221,246,1)));
-    background: linear-gradient(90deg, rgba(67,183,255,1) 0%, rgba(0,221,246,1) 100%);
+    background: -o-linear-gradient(left, #a042ed 0%, rgba(0,221,246,1) 100%);
+    background: -webkit-gradient(linear, left top, right top, from(#a042ed), to(rgba(0,221,246,1)));
+    background: linear-gradient(90deg, #a042ed 0%, rgba(0,221,246,1) 100%);
     filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#43b7ff",endColorstr="#00ddf6",GradientType=1);
     border: none;
 }
@@ -194,10 +194,6 @@ h2.dark-mode, p.dark-mode {
 
 p.dark-mode {
     opacity: .9;
-}
-
-h3.dark-mode {
-    color: var(--light-h);
 }
 
 /*-- -------------------------- -->
@@ -266,12 +262,24 @@ h3.dark-mode {
     color: var(--light-h);
 }
 
+body.dark-mode .statement h3 {
+    color: #a042ed;
+}
+
+body.dark-mode .about-info h3 {
+    color: #fff;
+}
+
 /*-- -------------------------- -->
 <---          Services          -->
 <--- -------------------------- -*/
 
+body.dark-mode #services .service-h3 {
+    color: #fff !important;
+}
+
 .service-item h3.dark-mode {
-    color: var(--light-h);
+    color: #fff !important;
 }
 
 .left-graphic.dark-mode:before {
@@ -282,12 +290,24 @@ h3.dark-mode {
     display: none;
 }
 
+body.dark-mode #detailing-services .service h3 {
+    color: #fff;
+}
+
+body.dark-mode .warning {
+    color: #fff;
+}
+
+body.dark-mode #clear-coat-ppf h3 {
+    color: #fff;
+}
+
 /*-- -------------------------- -->
 <---          Benefits          -->
 <--- -------------------------- -*/
 
 #benefits h3.dark-mode {
-    color: var(--light-h)
+    color: #a042ed;
 }
 
 /*-- -------------------------- -->
@@ -303,11 +323,11 @@ h3.dark-mode {
 }
 
 #reviews h4.dark-mode {
-    color: var(--light-h);
+    color: #a042ed;
 }
 
 .review h3.dark-mode {
-    color: var(--light-h);
+    color: #fff;
 }
 
 /*-- -------------------------- -->
@@ -323,7 +343,7 @@ h3.dark-mode {
 }
 
 #contact-container h3.dark-mode {
-    color: var(--light-h);
+    color: #a042ed;
 }
 
 /*-- -------------------------- -->
@@ -360,7 +380,7 @@ h3.dark-mode {
 }
 
 strong.dark-mode {
-    color: var(--primary);
+    color: #a042ed;
 }
 
 li {

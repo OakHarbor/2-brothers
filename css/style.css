@@ -4,7 +4,7 @@
 
 #hero {
     height: 350px;
-    background: url("/images/landing-mobile.jpg");
+    background: url("/images/cover.jpg");
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -31,7 +31,7 @@
     width: 100%;
     top: 0;
     left: 0;
-    opacity: .4;
+    opacity: .7;
     z-index: 0;
 }
 
@@ -876,9 +876,9 @@
     position: absolute;
     opacity: .9;
     background: rgb(0,52,76);
-    background: -o-linear-gradient(141deg, rgba(0,52,76,1) 0%, rgba(0,173,255,1) 100%);
-    background: linear-gradient(309deg, rgba(0,52,76,1) 0%, rgba(0,173,255,1) 100%);
-    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#00344c",endColorstr="#00adff",GradientType=1);
+    background: -o-linear-gradient(141deg, rgba(0,52,76,1) 0%, #7325b3 100%);
+    background: linear-gradient(309deg, rgba(0,52,76,1) 0%, #7325b3 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#00344c",endColorstr="#7325b3",GradientType=1);
 }
 
 .left-graphic {
@@ -2592,7 +2592,7 @@ form p{
 
     #hero {
         height: 690px;
-        background: url("/images/landing.jpg");
+        background: url("/images/cover.jpg");
         background-repeat: no-repeat;
         background-size: cover;
         background-attachment: fixed;
@@ -3109,9 +3109,10 @@ form p{
 
     #hero {
         height: 690px;
-        background: url("/images/landing.jpg");
+        background: url("/images/cover.jpg");
         background-repeat: no-repeat;
         background-size: cover;
+        background-position: center;
         background-attachment: fixed;
     }
 

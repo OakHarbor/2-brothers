@@ -29,8 +29,8 @@ section {
 }
 
 a {
-    font-size: bold;
-    color: var(--primary);
+    font-weight: bold;
+    color:#a042ed;
 }
 
 .background-image {

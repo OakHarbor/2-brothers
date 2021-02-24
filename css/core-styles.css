@@ -39,8 +39,9 @@ html {
   }
 
 :root {
-    --primary: #285692;
-    --light-h: #00ADFF;
+    --primary: #7325b3;
+    --light: #a042ed;
+    --light-h: #a042ed;
     --dark: #000;
     --medium: #1b1b1b;
     --light: #2e2e2e;
@@ -412,12 +413,6 @@ button:hover {
 .side-nav a {
 	text-decoration: none;
 	padding: 5px 10px 5px 10px;
-	-webkit-transition: .3s ease-in-out;
-	-o-transition: .3s ease-in-out;
-	transition: .3s ease-in-out;
-	-webkit-transition-delay: .2s;
-	     -o-transition-delay: .2s;
-	        transition-delay: .2s;
 	opacity: 0;
     visibility: hidden;
     font-family: 'Raleway', sans-serif;
@@ -459,9 +454,9 @@ button:hover {
         background-image: -webkit-gradient(linear,
                                         left bottom,
                                         left top,
-                                        color-stop(0.44, #66ceff),
-                                        color-stop(0.72, var(--primary)),
-                                        color-stop(0.86, #66ceff));
+                                        color-stop(0.44, #a042ed),
+                                        color-stop(0.72, #a042ed),
+                                        color-stop(0.86, #a042ed));
     }
 
 }
@@ -603,20 +598,15 @@ button:hover {
 	.side-nav a {
 		padding: 20px 0;
 		color: #fff;
-		-webkit-transition: .2s ease;
-		-o-transition: .2s ease;
-		transition: .2s ease;
         font-size: 1em;
         text-transform: uppercase;
+        border-bottom: 4px solid transparent;
 	}
 
 	.side-nav ul li a:hover {
 		cursor: pointer;
-		color: var(--primary);
-		opacity: .8;
-		-webkit-transition: .2s ease;
-		-o-transition: .2s ease;
-		transition: .2s ease;
+        opacity: .8;
+        border-bottom: 4px solid var(--primary);
 	}
 
 	.side-nav li {
@@ -629,7 +619,7 @@ button:hover {
 
 	.active-menu {
 		border-right: none;
-		border-bottom: 4px solid var(--primary);
+		border-bottom: 4px solid var(--primary) !important;
     }
 
     /* width */
@@ -652,9 +642,9 @@ button:hover {
         background-image: -webkit-gradient(linear,
                                         left bottom,
                                         left top,
-                                        color-stop(0.44, rgba(0,221,246,1)),
-                                        color-stop(0.72, var(--primary)),
-                                        color-stop(0.86, rgba(67,183,255,1)));
+                                        color-stop(0.44, #a042ed),
+                                        color-stop(0.72, #a042ed),
+                                        color-stop(0.86, #a042ed));
     }
 
 }
