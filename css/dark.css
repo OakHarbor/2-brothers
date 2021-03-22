@@ -196,6 +196,15 @@ p.dark-mode {
     opacity: .9;
 }
 
+body.dark-mode main ul li {
+    color: #fff;
+    opacity: .9;
+}
+
+body.dark-mode h3 {
+    color: #fff;
+}
+
 /*-- -------------------------- -->
 <---          LANDING           -->
 <--- -------------------------- -*/

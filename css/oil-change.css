@@ -1,0 +1,121 @@
+.special {
+    width: 100%;
+    display: block;
+    margin-bottom: 30px;
+}
+
+h2 {
+    padding-left: 20px;
+    border-left: 5px solid var(--primary);
+}
+
+.the-works {
+    padding-left: 20px;
+    margin-bottom: 40px;
+}
+
+.the-works li {
+    border-bottom: none;
+    list-style: none;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.the-works li span {
+    font-weight: bold;
+    color: #7325b3;
+}
+
+.the-works li:before {
+    content: '';
+    position: relative;
+    display: inline-block;
+    vertical-align: middle;
+    background: url("/images/right-chevron.svg");
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 15px;
+    width: 15px;
+    margin-right: 10px;
+}
+
+main ul li {
+    margin: 0;
+}
+
+.bold {
+    padding-left: 20px;
+    margin-bottom: 40px;
+}
+
+.bold li {
+    list-style: none;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.bold li:before {
+    content: '';
+    position: relative;
+    display: inline-block;
+    vertical-align: middle;
+    background: url("/images/right-chevron.svg");
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 15px;
+    width: 15px;
+    margin-right: 10px;
+}
+
+.included {
+    font-size: 20px;
+}
+
+.included span {
+    font-weight: bold;
+    color: #7325b3;
+    font-size: 24px;
+}
+
+.contact-oil {
+    margin-bottom: 50px;
+}
+
+#oil-change h3 {
+    margin: 40px 0 10px;
+    position: relative;
+    padding-left: 20px;
+}
+
+#oil-change h3:before {
+    content: '';
+    position: absolute;
+    display: inline-block;
+    vertical-align: middle;
+    background: url("/images/right-chevron.svg");
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 15px;
+    width: 15px;
+    top: 4px;
+    left: -2px;
+}
+
+.oil-image {
+    background: url("/images/OilChangeSpecial.jpg");
+	background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 250px;
+    width: 100%;
+    margin-bottom: 40px;
+}
+
+@media screen and (min-width: 1024px) {
+    .oil-image {
+        height: 300px;
+    }
+}
